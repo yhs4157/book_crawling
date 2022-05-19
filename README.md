@@ -19,3 +19,16 @@
     - git commit -m <message>
 11. 원격 저장소에 올리기
     - git push origin master
+
+크롤링 종류
+
+- 동적 크롤링(xhr) : 교보문고, 밀리의 서재 - 개발자 도구 - network - xhr - preview를 통해 확인가능.
+- 정적 크롤링(html) : 알라딘
+
+웹 종류에 따라 방법이 다르다.
+
+사용한 라이브러리 : axios, cheerio, iconv-lite
+
+- axios : HTML을 들고옴.
+- cheerio : 해당 HTML에 트리구조에 접근
+- iconv-lite : 언어 깨짐 문제를 해결 decode함.
